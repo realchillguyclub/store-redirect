@@ -1,0 +1,11 @@
+{ 
+  "version": 2, 
+  "functions": { 
+    "api/store.js": { 
+      "runtime": "nodejs18.x" 
+    } 
+  }, 
+  "routes": [ 
+    { "src": "/api/store", "dest": "/api/store.js" } 
+  ] 
+}
