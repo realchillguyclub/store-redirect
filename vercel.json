@@ -1,10 +1,5 @@
 { 
   "version": 2, 
-  "functions": { 
-    "api/store.js": { 
-      "runtime": "vercel-nodejs@2.0.0"
-    } 
-  }, 
   "routes": [ 
     { "src": "/api/store", "dest": "/api/store.js" } 
   ] 
